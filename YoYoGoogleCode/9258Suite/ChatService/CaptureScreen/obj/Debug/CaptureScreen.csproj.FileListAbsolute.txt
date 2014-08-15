@@ -1,0 +1,11 @@
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\bin\Debug\CaptureScreen.dll
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\bin\Debug\CaptureScreen.pdb
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\CaptureScreen.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\CaptureScreen.pdb
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\CaptureScreen_MarkupCompile.cache
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\CaptureScreen_MarkupCompile.lref
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\Themes\generic.baml
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\CaptureScreen.g.resources
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\CaptureScreen.dll
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Debug\CaptureScreen.pdb

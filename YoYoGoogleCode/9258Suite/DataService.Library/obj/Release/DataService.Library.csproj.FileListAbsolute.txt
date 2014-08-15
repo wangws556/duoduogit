@@ -1,0 +1,7 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.DataService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.DataService.Library.pdb
+D:\personal\YoYoGooglecode\9258Suite\DataService.Library\obj\Release\DataService.Library.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\DataService.Library\obj\Release\YoYoStudio.DataService.Library.Properties.Resources.resources
+D:\personal\YoYoGooglecode\9258Suite\DataService.Library\obj\Release\DataService.Library.csproj.GenerateResource.Cache
+D:\personal\YoYoGooglecode\9258Suite\DataService.Library\obj\Release\YoYoStudio.DataService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\DataService.Library\obj\Release\YoYoStudio.DataService.Library.pdb

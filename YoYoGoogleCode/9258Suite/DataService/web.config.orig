@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<configuration>
+	<connectionStrings>
+		<add name="CentralData" connectionString="Data Source=.\SQLSERVER2012;Initial Catalog=CentralData;Integrated Security=True;MultipleActiveResultSets=True;" providerName="System.Data.SqlClient"/>
+	</connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0" />
+  </system.web>
+  <system.serviceModel>
+		<services>
+			<service name="DataService" behaviorConfiguration="serviceMetadataBehavior">
+        <host>
+          <baseAddresses>
+<<<<<<< .mine
+            <!--<add baseAddress="https://61.147.119.252/DataService/"/>-->
+            <add baseAddress="https://127.0.0.1/DataService/"/>
+=======
+            <add baseAddress="https://127.0.0.1/DataService/"/>
+>>>>>>> .r1118
+          </baseAddresses>
+        </host>
+				<endpoint address="" binding="basicHttpBinding" bindingConfiguration="sslBasicHttpBinding" contract="YoYoStudio.DataService.Library.IDataService">
+					<identity>
+						<dns value="9258Suite"/>
+					</identity>
+				</endpoint>
+				<endpoint address="mex" binding="mexHttpsBinding" contract="IMetadataExchange" />
+			</service>
+		</services>
+		<bindings>
+			<basicHttpBinding>
+				<binding name="sslBasicHttpBinding" maxBufferSize="1024000000" maxReceivedMessageSize="1024000000">
+          <readerQuotas maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxDepth="2147483647" maxNameTableCharCount="2147483647" maxStringContentLength="2147483647"/>
+          <security mode="Transport">
+						<transport clientCredentialType="None"/>
+					</security>
+				</binding>
+			</basicHttpBinding>
+		</bindings>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="serviceMetadataBehavior">
+          <dataContractSerializer maxItemsInObjectGraph="2147483647" />
+          <!-- To avoid disclosing metadata information, set the value below to false before deployment -->
+          <serviceMetadata httpGetEnabled="false" httpsGetEnabled="true"/>
+          <!-- To receive exception details in faults for debugging purposes, set the value below to true.  Set to false before deployment to avoid disclosing exception information -->
+          <serviceDebug includeExceptionDetailInFaults="false"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <serviceHostingEnvironment multipleSiteBindingsEnabled="true" />
+  </system.serviceModel>
+ <system.webServer>
+	 <validation validateIntegratedModeConfiguration="false"/>
+    <modules runAllManagedModulesForAllRequests="true"/>
+    <!--
+        To browse web app root directory during debugging, set the value below to true.
+        Set to false before deployment to avoid disclosing web app folder information.
+      -->
+    <directoryBrowse enabled="true"/>
+  </system.webServer>
+
+</configuration>

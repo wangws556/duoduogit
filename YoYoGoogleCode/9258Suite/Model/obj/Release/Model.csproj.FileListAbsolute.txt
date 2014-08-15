@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Model.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Model.pdb
+D:\personal\YoYoGooglecode\9258Suite\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\Model\obj\Release\YoYoStudio.Model.dll
+D:\personal\YoYoGooglecode\9258Suite\Model\obj\Release\YoYoStudio.Model.pdb

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <system.serviceModel>
+    <services>
+      <service name="ChatService" behaviorConfiguration="SslServiceBehavior">
+				<host>
+					<baseAddresses>
+<<<<<<< .mine
+						<add baseAddress="net.tcp://127.0.0.1:22222/ChatService/"/>
+            <!--<add baseAddress="net.tcp://61.147.119.252:22222/ChatService/"/>-->
+=======
+						<add baseAddress="net.tcp://127.0.0.1:22222/ChatService/"/>
+>>>>>>> .r1118
+					</baseAddresses>
+				</host>
+				<endpoint binding="netTcpBinding" address="" bindingConfiguration="SslDuplexTcpBinding" contract="YoYoStudio.ChatService.Library.IChatService">
+          <identity>
+            <dns value="_9258ChatService"/>
+          </identity>
+        </endpoint>
+        <endpoint address="mex" binding="netTcpBinding" bindingConfiguration="mexBinding" contract="IMetadataExchange" />
+      </service>
+    </services>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="SslServiceBehavior">
+          <dataContractSerializer maxItemsInObjectGraph="2147483647" />
+          <serviceMetadata />
+          <serviceThrottling maxConcurrentCalls="10000" maxConcurrentInstances="10000" maxConcurrentSessions="10000"/>
+          <serviceCredentials>
+            <serviceCertificate storeLocation="LocalMachine" storeName="My" x509FindType="FindByIssuerName" findValue="_9258ChatService"/>
+          </serviceCredentials>
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IDataService" maxBufferSize="1024000000" maxReceivedMessageSize="1024000000">
+          <security mode="Transport" />
+        </binding>
+      </basicHttpBinding>
+      <netTcpBinding>
+        <binding name="SslDuplexTcpBinding" openTimeout="00:05:00" sendTimeout="00:05:00" receiveTimeout="00:05:00" transferMode="Buffered"
+                 maxBufferSize="1024000000" maxReceivedMessageSize="1024000000" portSharingEnabled="true">
+          <readerQuotas maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxDepth="2147483647" maxNameTableCharCount="2147483647" maxStringContentLength="2147483647"/>
+          <reliableSession enabled="true" ordered="true"/>
+          <security mode="Transport">
+            <transport clientCredentialType="None"/>
+          </security>
+        </binding>
+				<binding name="mexBinding" portSharingEnabled="true" >
+					<security mode="None" />
+				</binding>
+      </netTcpBinding>			
+    </bindings>
+    <client>
+<<<<<<< .mine
+      <!--<endpoint address="https://61.147.119.252/DataService/Service.svc"-->
+      <endpoint address="https://127.0.0.1/DataService/Service.svc"
+=======
+      <endpoint address="https://127.0.0.1/DataService/Service.svc"
+>>>>>>> .r1118
+          binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IDataService"
+          contract="IDataService" name="DataService" />
+    </client>
+  </system.serviceModel>
+</configuration>

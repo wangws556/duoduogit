@@ -1,0 +1,2 @@
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Debug\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Debug\YoYoStudio.SocketService.Music.pdb

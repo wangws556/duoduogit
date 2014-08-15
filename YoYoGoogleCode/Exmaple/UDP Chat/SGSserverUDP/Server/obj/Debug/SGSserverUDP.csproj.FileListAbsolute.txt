@@ -1,0 +1,9 @@
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\bin\Debug\Server.exe
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\bin\Debug\Server.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\Server.SGSserverForm.resources
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\Server.Properties.Resources.resources
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\SGSserverUDP.csproj.GenerateResource.Cache
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\Server.exe
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\Server.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\bin\Debug\Server.exe.config
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSserverUDP\Server\obj\Debug\SGSserverUDP.csprojResolveAssemblyReference.cache

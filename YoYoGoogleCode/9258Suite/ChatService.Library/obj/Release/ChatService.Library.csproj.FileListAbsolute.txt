@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.ChatService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.ChatService.Library.pdb
+D:\personal\YoYoGooglecode\9258Suite\ChatService.Library\obj\Release\ChatService.Library.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\ChatService.Library\obj\Release\YoYoStudio.ChatService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\ChatService.Library\obj\Release\YoYoStudio.ChatService.Library.pdb

@@ -1,0 +1,10 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\CaptureScreen.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\CaptureScreen.pdb
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen_MarkupCompile.cache
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen_MarkupCompile.lref
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\Themes\generic.baml
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen.g.resources
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen.dll
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen.pdb
+D:\personal\YoYoGooglecode\9258Suite\CaptureScreen\obj\Release\CaptureScreen.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Debug\MusicServiceHost.exe.config
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Debug\MusicServiceHost.exe
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Debug\MusicServiceHost.pdb
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Debug\SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Debug\SocketService.Music.pdb

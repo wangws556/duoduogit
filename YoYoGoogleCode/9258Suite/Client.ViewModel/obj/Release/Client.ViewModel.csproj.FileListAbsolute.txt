@@ -1,0 +1,6 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Client.ViewModel.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Client.ViewModel.pdb
+D:\personal\YoYoGooglecode\9258Suite\Client.ViewModel\obj\Release\Client.ViewModel.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\Client.ViewModel\obj\Release\YoYoStudio.Client.ViewModel.dll
+D:\personal\YoYoGooglecode\9258Suite\Client.ViewModel\obj\Release\YoYoStudio.Client.ViewModel.pdb
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Client.ViewModel.dll.config

@@ -1,0 +1,132 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Media.Imaging;
+using Snippets;
+using YoYoStudio.Common;
+using YoYoStudio.Common.Notification;
+using YoYoStudio.Common.Wpf.ViewModel;
+using YoYoStudio.Model.Configuration;
+using YoYoStudio.Resource;
+
+namespace YoYoStudio.Client.ViewModel
+{
+    [SnippetPropertyINPC(field = "nickName", property = "NickName", type = "string", defaultValue = "string.Empty")]
+    [SnippetPropertyINPC(field = "accountId", property = "AccountId", type = "int", defaultValue = "-1")]
+    [SnippetPropertyINPC(field = "gender", property = "Gender", type = "bool", defaultValue = "false")]
+    [SnippetPropertyINPC(field = "email", property = "Email", type = "string", defaultValue = "string.Empty")]
+    [SnippetPropertyINPC(field = "passwordQuestion", property = "PasswordQuestion", type = "string", defaultValue = "string.Empty")]
+    [SnippetPropertyINPC(field = "passwordAnswer", property = "PasswordAnswer", type = "string", defaultValue = "string.Empty")]
+    [SnippetPropertyINPC(field = "age", property = "Age", type = "int", defaultValue = "-1")]
+    [SnippetPropertyINPC(field = "lastLoginTime", property = "LastLoginTime", type = "DateTime", defaultValue = "DateTime.Now")]
+    [SnippetPropertyINPC(field = "imageSource", property = "ImageSource", type = "ImageSource", defaultValue = "null")]
+    public partial class PersonalInfoConfigurationViewModel:ConfigurationViewModel
+    {
+        public PersonalInfoConfigurationViewModel(PersonalInfoConfiguration config)
+            : base(config)
+        { }
+
+        public override void Save()
+        {
+            var config = GetConcreteConfiguration<PersonalInfoConfiguration>();
+            if (config != null)
+            {
+                config.Email = Email;
+                config.Gender = Gender;
+                config.NickName = NickName;
+                base.Save();
+            }
+        }
+
+<<<<<<< .mine
+=======
+        public static BitmapImage createBitmapSource(string path)
+        {
+            BitmapImage bi = new BitmapImage();
+            bi.BeginInit();
+            bi.UriSource = new Uri(path, UriKind.RelativeOrAbsolute);
+            bi.EndInit();
+            return bi;
+        }
+
+>>>>>>> .r1074
+        public override void Reset()
+        {
+            var config = GetConcreteConfiguration<PersonalInfoConfiguration>();
+            if (config != null)
+            {
+                config.Email = Email;
+                config.Gender = Gender;
+                config.NickName = NickName;
+                base.ReleaseManagedResource();
+            }
+            base.Reset();
+        }
+
+        protected override void InitializeResource()
+        {
+            Title = Text.PersonalInfoConfiguration;
+            if (Singleton<LocalCache>.Instance.CurrentUserVM != null)
+            {
+                NickName = Singleton<LocalCache>.Instance.CurrentUserVM.NickName;
+                AccountId = Singleton<LocalCache>.Instance.CurrentUserVM.Id;
+                Gender = Singleton<LocalCache>.Instance.CurrentUserVM.Gender;
+                Email = Singleton<LocalCache>.Instance.CurrentUserVM.Email;
+                PasswordQuestion = Singleton<LocalCache>.Instance.CurrentUserVM.PasswordQuestion;
+                PasswordAnswer = Singleton<LocalCache>.Instance.CurrentUserVM.PasswordAnswer;
+                Age = Singleton<LocalCache>.Instance.CurrentUserVM.Age;
+                LastLoginTime = Singleton<LocalCache>.Instance.CurrentUserVM.LastLoginTime;
+                ImageSource = Utility.CreateBitmapSource( Singleton<LocalCache>.Instance.CurrentUserVM.ImageVM.AbsolutePath);
+                ApplicationVM.ProfileVM.PhotoSelectorVM.PhotoSource = ImageSource;
+            }
+            base.InitializeResource();
+        }
+
+        public override void Initialize()
+        {
+            InitializeResource();
+        }
+
+        protected override void InitializeCommand()
+        {
+            Command = new SecureCommand(CommandExecute, CanCommandExecute);
+            base.InitializeCommand();
+        }
+
+        public SecureCommand Command { get; set; }
+        public void CommandExecute(SecureCommandArgs args)
+        {
+            ConfigurationItemViewModel civm = new ConfigurationItemViewModel(ApplicationVM.ProfileVM.PhotoSelectorVM);
+            Messenger.Default.Send<EnumNotificationMessage<object, ConfigurationWindowAction>>(new EnumNotificationMessage<object, ConfigurationWindowAction>(ConfigurationWindowAction.ConfigurationStateChanged, civm));
+        }
+
+        public bool CanCommandExecute(SecureCommandArgs args)
+        {
+            return Singleton<LocalCache>.Instance.CurrentUserVM != null;
+        }
+
+        
+
+        public PersonalInfoLabels PersonalInfoLabel { get { return new PersonalInfoLabels(); } }
+
+        public class PersonalInfoLabels
+        { 
+            public string AssetsLabel { get {return Text.PersonalAssets; }}
+            public string RoomsLabel {get{return Text.PersonalRooms;}}
+            public string CarsLabel {get {return Text.PersonalCars;}}
+            public string WeboLabel {get {return Text.PersonalWebo;}}
+            public string BasicInfoLabel { get { return Text.PersonalInfo; } }
+
+            public string ChangePhotoLabel { get { return Text.ChangePhotoLabel; } }
+            public string NickNameLabel { get { return Text.NickNameLabel; } }
+            public string AccountIdLabel { get { return Text.AccountIdLabel; } }
+            public string GenderLabel { get { return Text.Gender; } }
+            public string EmailLabel { get { return Text.EmailLabel; } }
+            public string PasswordQuestionLabel { get { return Text.PasswordQuestionLabel; } }
+            public string PasswordAnswerLabel { get { return Text.PasswordAnswerLabel; } }
+            public string AgeLabel { get { return Text.AgeLabel; } }
+            public string LastLoginTimeLabel { get { return Text.LastLoginTimeLabel; } }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Exceptions.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Exceptions.pdb
+D:\personal\YoYoGooglecode\9258Suite\Exceptions\obj\Release\YoYoStudio.Exceptions.dll
+D:\personal\YoYoGooglecode\9258Suite\Exceptions\obj\Release\YoYoStudio.Exceptions.pdb
+D:\personal\YoYoGooglecode\9258Suite\Exceptions\obj\Release\Exceptions.csprojResolveAssemblyReference.cache

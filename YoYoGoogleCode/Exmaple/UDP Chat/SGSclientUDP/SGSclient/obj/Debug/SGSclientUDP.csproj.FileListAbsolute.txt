@@ -1,0 +1,14 @@
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\SGSclient.exe
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\SGSclient.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclient.SGSClient.resources
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclient.LoginForm.resources
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclient.Properties.Resources.resources
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclientUDP.csproj.GenerateResource.Cache
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclient.exe
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclient.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\SGSclient.exe.config
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\NAudio.dll
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\NSpeex.dll
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\obj\Debug\SGSclientUDP.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\YoYoStudio.Media.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\YoYoStudio.Media.dll

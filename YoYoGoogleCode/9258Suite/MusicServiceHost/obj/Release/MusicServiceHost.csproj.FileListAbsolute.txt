@@ -1,0 +1,11 @@
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Release\MusicServiceHost.exe.config
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Release\MusicServiceHost.exe
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Release\MusicServiceHost.pdb
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Release\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\bin\Release\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\obj\Release\MusicServiceHost.exe
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\obj\Release\MusicServiceHost.pdb
+D:\personal\YoYoGooglecode\9258Suite\MusicServiceHost\obj\Release\MusicServiceHost.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\MusicServiceHost\MusicServiceHost.exe.config
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\MusicServiceHost\MusicServiceHost.exe
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\MusicServiceHost\MusicServiceHost.pdb

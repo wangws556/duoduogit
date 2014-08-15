@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Common.Wpf.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Common.Wpf.pdb
+D:\personal\YoYoGooglecode\9258Suite\Common.WPF\obj\Release\YoYoStudio.Common.Wpf.dll
+D:\personal\YoYoGooglecode\9258Suite\Common.WPF\obj\Release\YoYoStudio.Common.Wpf.pdb
+D:\personal\YoYoGooglecode\9258Suite\Common.WPF\obj\Release\Common.Wpf.csprojResolveAssemblyReference.cache

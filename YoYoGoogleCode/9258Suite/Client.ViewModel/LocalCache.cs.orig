@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Linq;
+using System.Text;
+
+namespace YoYoStudio.Client.ViewModel
+{
+	public class LocalCache
+	{
+		private LocalCache()
+		{
+			AllRoomGroupVMs = new List<RoomGroupViewModel>();
+			AllRoomVMs = new List<RoomViewModel>();
+<<<<<<< .mine
+            RoomGroupTN = new List<TreeNodeViewModel>();
+=======
+			ChatServiceIp = ConfigurationManager.AppSettings["ChatServiceIp"];
+			ChatServicePort = int.Parse(ConfigurationManager.AppSettings["ChatServicePort"]);
+			RoomServicePort = int.Parse(ConfigurationManager.AppSettings["RoomServicePort"]);
+>>>>>>> .r969
+		}
+
+		public string ChatServiceIp { get; private set; }
+		public int ChatServicePort { get; private set; }
+		public int RoomServicePort { get; private set; }
+
+		public UserViewModel CurrentUserVM { get; set; }
+
+		public List<RoomGroupViewModel> AllRoomGroupVMs { get; set; }
+
+		public List<RoomViewModel> AllRoomVMs { get; set; }
+
+        public List<TreeNodeViewModel> RoomGroupTN { get; set; }
+
+	}
+}

@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Media.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Media.pdb
+D:\personal\YoYoGooglecode\9258Suite\Media\obj\Release\YoYoStudio.Media.dll
+D:\personal\YoYoGooglecode\9258Suite\Media\obj\Release\YoYoStudio.Media.pdb
+D:\personal\YoYoGooglecode\9258Suite\Media\obj\Release\Media.csprojResolveAssemblyReference.cache

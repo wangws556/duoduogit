@@ -1,0 +1,295 @@
+﻿
+var allTopLevelRoomGroups;
+var roomGroupTree;
+var searchResult = new Array();
+
+<<<<<<< .mine
+function InitHall(root) {
+    Init(root);
+    $('body').layout({
+        north: {
+            paneSelector: ".north-pane",
+            spacing_open: 5,
+            spacing_closed: 5,
+            closable: false,
+            resizable: true,
+            resizeTip: '',
+            size: 30,
+            maxSize: 30,
+            minSize:30
+        },
+        west: {
+            paneSelector: ".west-pane",
+            spacing_open: 5,
+            spacing_closed: 5,
+            closable: false,
+            resizable: true,
+            resizeTip: '',
+            size: 220,
+            minSize:220
+        },
+        center: {
+            paneSelector: ".center-pane",
+            spacing_open: 5,
+            spacing_closed: 5,
+            closable: false,
+            resizable: true,
+            resizeTip: ''
+        },
+        east: {
+            paneSelector: ".east-pane",
+            spacing_open: 5,
+            spacing_closed: 5,
+            closable: false,
+            resizable: true,
+            resizeTip: '',
+            size: '220',
+            miniSize:220
+        }
+    });
+    roomGroupTree = $('#roomGroupTree').ligerTree({ checkbox: false, btnClickToToggleOnly: false, onSelect: selectNode, idFieldName: 'id', nodeWidth : 120 });
+    //InitTopPages();
+=======
+function InitHall() {
+	InitBase();
+	$('body').layout({
+		north: {
+			paneSelector: ".north-pane",
+			spacing_open: 5,
+			spacing_closed: 5,
+			closable: false,
+			resizable: true,
+			resizeTip: '',
+			size: 30,
+			maxSize: 30,
+			minSize: 30
+		},
+		west: {
+			paneSelector: ".west-pane",
+			spacing_open: 5,
+			spacing_closed: 5,
+			closable: false,
+			resizable: true,
+			resizeTip: '',
+			size: 220,
+			minSize: 220
+		},
+		center: {
+			paneSelector: ".center-pane",
+			spacing_open: 5,
+			spacing_closed: 5,
+			closable: false,
+			resizable: true,
+			resizeTip: ''
+		},
+		east: {
+			paneSelector: ".east-pane",
+			spacing_open: 5,
+			spacing_closed: 5,
+			closable: false,
+			resizable: true,
+			resizeTip: '',
+			size: 'auto'
+		}
+	});
+	roomGroupTree = $('#roomGroupTree').ligerTree({ checkbox: false, btnClickToToggleOnly: false, onSelect: selectNode, idFieldName: 'id', nodeWidth: 120});
+>>>>>>> .r1032
+}
+
+function GetRoomGroup(id) {
+	for (var i = 0; i < allTopLevelRoomGroups.length; i++) {
+		if (allTopLevelRoomGroups[i].id == id)
+			return allTopLevelRoomGroups[i];
+	}
+	return null;
+}
+
+var tabInitialized = false;
+
+function InitTabs(roomGroups) {
+    allTopLevelRoomGroups = eval(roomGroups);
+    for (var i = 0; i < allTopLevelRoomGroups.length; i++) {
+        var divid = 'roomgroup' + allTopLevelRoomGroups[i].id;
+        $('#tabDiv').append("<div title='"+allTopLevelRoomGroups[i].text+"' style='width:0'></div>")
+        //tab.addTabItem({ tabid: divid, text: allTopLevelRoomGroups[i].text, showClose: false });
+    }
+	var tab = $('#tabDiv').ligerTab(
+	    {
+	        contextmenu: false,
+	        height:0,
+	        onAfterSelectTabItem: function (tabid) {
+	            if (tabInitialized) {
+	                document.getElementById("roomGroupTree").innerHTML = '';
+	                ClearRooms();
+	                var id = parseInt(tabid.substring(9));
+	                var roomGroup = GetRoomGroup(id);
+	                if (roomGroup != null) {
+	                    roomGroupTree.setData(roomGroup.children);
+	                }
+	            }
+	        }
+	    });    
+	if (allTopLevelRoomGroups.length > 0)
+	{
+	    var tabid = 'roomgroup' + allTopLevelRoomGroups[0].id;
+	    tab.selectTabItem(tabid);
+	    roomGroupTree.setData(allTopLevelRoomGroups[0].children);
+	}
+	tabInitialized = true;
+}
+
+function reloadTabs() {
+	var tabInitialized = false;
+	InitTabs(allTopLevelRoomGroups);
+}
+
+function selectNode(node) {
+    if (node && node.data && node.data.nodes) {
+		DisplayRooms(node.data.nodes, true);
+	}
+}
+
+function DisplayLocation(rooms) {
+	var loc = $("#location");
+	loc.addClass("border");
+	var path = new Array();
+
+	for (var i = 0; i < allTopLevelRoomGroups.length; i++) {
+		path = [];
+		path.push(allTopLevelRoomGroups[i].text);
+		if (BuildRoomPath(rooms[0], allTopLevelRoomGroups[i], path) == true) {
+			break;
+		}
+	}
+
+	var result = "您所在位置：";
+
+	for (var i = 0; i < path.length; i++) {
+		result += path[i] + ">>";
+	}
+
+	loc.append("<H5>" + result + "<H5>");
+}
+
+function BuildRoomPath(room, root, path) {
+	if (root.children != null && root.children.length > 0) {
+		for (var i = 0; i < root.children.length; i++) {
+			path.push(root.children[i].text);
+			if (BuildRoomPath(room, root.children[i], path) == true)
+				return true;
+			else {
+				path.pop();
+			}
+		}
+	}
+	else {
+		if (root.nodes != null && root.nodes.length > 0) {
+			for (var i = 0; i < root.nodes.length; i++) {
+				if (root.nodes[i].name == room.name) {
+					return true;
+				}
+			}
+		}
+	}
+	return false;
+}
+
+function DisplayRooms(rooms, loc) {
+	ClearRooms();
+	InitRoomsPage(rooms, loc);
+}
+
+function ClearRooms() {
+	var div = document.getElementById("rooms");
+	div.innerHTML = "";
+	var rooms = $("#rooms");
+	rooms.removeClass("border");
+
+	var div = document.getElementById("location")
+	div.innerHTML = "";
+	var loc = $("#location");
+	loc.removeClass("border");
+}
+
+
+function InitRoomsPage(rooms, loc) {
+	if (rooms != null && rooms.length > 0) {
+		if (loc == true) {
+			DisplayLocation(rooms);
+		}
+		var divRooms = $("#rooms");
+		divRooms.addClass("border");
+		for (var i = 0; i < rooms.length; i++) {
+			var div = $('<div></div>');
+			div.attr("roomId", rooms[i].id);
+			div.append("<div class='bg'></div>");
+			div.append("<img src='" + rooms[i].icon + "'/>");
+			div.append("<span>" + rooms[i].name + "</span>");
+			div.hover(function () {
+				$(this).addClass("l-over");
+			}, function () {
+				$(this).removeClass("l-over");
+			}).click(function () {
+				window.external.EnterRoom($(this).attr("roomId"));
+			});
+			div.appendTo(divRooms);
+		}
+	}
+	else {
+		ClearRooms();
+	}
+}
+
+function test() {
+	alert("dd");
+}
+
+function InitTopPages() {
+	var panel = $("#topPage");
+	if (panel != null) {
+		panel.append("<div id='top1'></div>")
+		panel.append("<div id='top2'></div>")
+		panel.append("<div id='top3'></div>")
+	}
+}
+
+
+function search(data, room) {
+	if (data != null) {
+		if (data.children != null) {
+			for (var i = 0; i < data.children.length; i++)
+				search(data.children[i], room);
+		}
+		if (data.nodes != null) {
+			for (var i = 0; i < data.nodes.length; i++) {
+				if (data.nodes[i].name == room)
+					searchResult.push(data.nodes[i]);
+			}
+		}
+	}
+}
+
+function SearchRooms() {
+	var room = $.trim(document.getElementById('searchTxt').value);
+	if (room == null || room == '') {
+		alert('请输入房间名称！');
+		return;
+	}
+
+	if (allTopLevelRoomGroups != null) {
+		searchResult = [];
+		for (var i = 0; i < allTopLevelRoomGroups.length; i++) {
+			search(allTopLevelRoomGroups[i], room);
+		}
+
+		if (searchResult.length > 0)
+			DisplayRooms(searchResult, false);
+		else {
+			ClearRooms();
+			var divRooms = $("#rooms");
+			divRooms.append("<H5>找不到匹配的房间！</H5>");
+		}
+	}
+}
+
+

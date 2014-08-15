@@ -1,0 +1,10 @@
+D:\personal\YoYoGoogleCode\9258Suite\bin\Debug\Temp\lib\json2.js
+D:\personal\YoYoGoogleCode\9258Suite\bin\Debug\Temp\YoYoStudio.Client.Controls.dll
+D:\personal\YoYoGoogleCode\9258Suite\bin\Debug\Temp\YoYoStudio.Client.Controls.pdb
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\Client.Controls.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\WebPage.baml
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\WebPage.g.cs
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\YoYoStudio.Client.Controls_MarkupCompile.cache
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\YoYoStudio.Client.Controls.g.resources
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\YoYoStudio.Client.Controls.dll
+D:\personal\YoYoGoogleCode\9258Suite\Client.Controls\obj\Debug\YoYoStudio.Client.Controls.pdb

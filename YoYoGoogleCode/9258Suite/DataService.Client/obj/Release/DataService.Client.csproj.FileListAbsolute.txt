@@ -1,0 +1,6 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.DataService.Client.dll.config
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.DataService.Client.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.DataService.Client.pdb
+D:\personal\YoYoGooglecode\9258Suite\DataService.Client\obj\Release\DataService.Client.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\DataService.Client\obj\Release\YoYoStudio.DataService.Client.dll
+D:\personal\YoYoGooglecode\9258Suite\DataService.Client\obj\Release\YoYoStudio.DataService.Client.pdb

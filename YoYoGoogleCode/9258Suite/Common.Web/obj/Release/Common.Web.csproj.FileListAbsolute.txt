@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Common.Web.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Common.Web.pdb
+D:\personal\YoYoGooglecode\9258Suite\Common.Web\obj\Release\YoYoStudio.Common.Web.dll
+D:\personal\YoYoGooglecode\9258Suite\Common.Web\obj\Release\YoYoStudio.Common.Web.pdb
+D:\personal\YoYoGooglecode\9258Suite\Common.Web\obj\Release\Common.Web.csprojResolveAssemblyReference.cache

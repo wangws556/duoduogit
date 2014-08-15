@@ -1,0 +1,14 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\YoYoStudio.RoomService.exe.config
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\YoYoStudio.RoomService.exe.manifest
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\YoYoStudio.RoomService.application
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\YoYoStudio.RoomService.exe
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\YoYoStudio.RoomService.pdb
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\RoomService.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\YoYoStudio.RoomService.ProjectInstaller.resources
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\RoomService.csproj.GenerateResource.Cache
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\YoYoStudio.RoomService.exe.manifest
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\YoYoStudio.RoomService.application
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\YoYoStudio.RoomService.exe
+D:\personal\YoYoGooglecode\9258Suite\RoomService\obj\Release\YoYoStudio.RoomService.pdb
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\Install.bat
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\RoomService\Uninstall.bat

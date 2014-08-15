@@ -1,0 +1,8 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Resource.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Resource.pdb
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\YoYoStudio.Resource.Text.resources
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\Resource.csproj.GenerateResource.Cache
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\YoYoStudio.Resource.dll
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\YoYoStudio.Resource.pdb
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\YoYoStudio.Resource.Messages.resources
+D:\personal\YoYoGooglecode\9258Suite\Resource\obj\Release\Resource.csprojResolveAssemblyReference.cache

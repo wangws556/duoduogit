@@ -1,0 +1,15 @@
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\bin\Release\TestMusicUpload.exe.config
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\bin\Release\TestMusicUpload.exe
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\bin\Release\TestMusicUpload.pdb
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\bin\Release\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\bin\Release\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\MainWindow.baml
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\MainWindow.g.cs
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\App.g.cs
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload_MarkupCompile.cache
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.g.resources
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.Properties.Resources.resources
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.csproj.GenerateResource.Cache
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.exe
+D:\personal\YoYoGooglecode\9258Suite\TestMusicUpload\obj\Release\TestMusicUpload.pdb

@@ -1,0 +1,3 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.ServiceHost.exe.config
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.ServiceHost.exe
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.ServiceHost.pdb

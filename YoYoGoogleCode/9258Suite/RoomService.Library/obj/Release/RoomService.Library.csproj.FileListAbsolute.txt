@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.RoomService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.RoomService.Library.pdb
+D:\personal\YoYoGooglecode\9258Suite\RoomService.Library\obj\Release\RoomService.Library.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\RoomService.Library\obj\Release\YoYoStudio.RoomService.Library.dll
+D:\personal\YoYoGooglecode\9258Suite\RoomService.Library\obj\Release\YoYoStudio.RoomService.Library.pdb

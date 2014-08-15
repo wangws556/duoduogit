@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Persistent.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.Persistent.pdb
+D:\personal\YoYoGooglecode\9258Suite\Persistent\obj\Release\Persistent.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\Persistent\obj\Release\YoYoStudio.Persistent.dll
+D:\personal\YoYoGooglecode\9258Suite\Persistent\obj\Release\YoYoStudio.Persistent.pdb

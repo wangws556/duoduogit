@@ -1,0 +1,15 @@
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Model.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Common.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Resource.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Model.pdb
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Common.pdb
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\bin\Release\YoYoStudio.Resource.pdb
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\obj\Release\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\obj\Release\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.SocketService.Music.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Release\Temp\YoYoStudio.SocketService.Music.pdb
+D:\personal\YoYoGooglecode\9258Suite\SocketService.Music\obj\Release\SocketService.Music.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.Media.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.Media.pdb
+D:\personal\YoYoGooglecode\9258Suite\Media\obj\Debug\YoYoStudio.Media.dll
+D:\personal\YoYoGooglecode\9258Suite\Media\obj\Debug\YoYoStudio.Media.pdb
+D:\personal\YoYoGoogleCode\9258Suite\Media\obj\Debug\Media.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\Media\obj\Debug\YoYoStudio.Media.dll
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\Media\obj\Debug\YoYoStudio.Media.pdb
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\YoYoStudio.Media.dll
+D:\personal\YoYoGoogleCode\Exmaple\UDP Chat\SGSclientUDP\SGSclient\bin\Debug\YoYoStudio.Media.pdb

@@ -1,0 +1,5 @@
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.Logging.dll
+D:\personal\YoYoGooglecode\9258Suite\bin\Debug\Temp\YoYoStudio.Logging.pdb
+D:\personal\YoYoGooglecode\9258Suite\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+D:\personal\YoYoGooglecode\9258Suite\Logging\obj\Debug\YoYoStudio.Logging.dll
+D:\personal\YoYoGooglecode\9258Suite\Logging\obj\Debug\YoYoStudio.Logging.pdb

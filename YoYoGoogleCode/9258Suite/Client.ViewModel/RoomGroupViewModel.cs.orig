@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Snippets;
+using YoYoStudio.Common;
+using YoYoStudio.Common.Wpf.ViewModel;
+using YoYoStudio.Model.Chat;
+using YoYoStudio.Model.Json;
+using System.Runtime.InteropServices;
+
+namespace YoYoStudio.Client.ViewModel
+{
+    [ComVisible(true)]
+    [Serializable]
+    [SnippetPropertyINPC(field = "roomVMs", property = "RoomVMs", type = "ObservableCollection<RoomViewModel>", defaultValue = "null")]
+    [SnippetPropertyINPC(field = "name", property = "Name", type = "string", defaultValue = "string.Empty")]
+    [SnippetPropertyINPC(field = "subRoomGroupVMs", property = "SubRoomGroupVMs", type = "ObservableCollection<RoomGroupViewModel>", defaultValue = "null")]
+    [SnippetPropertyINPC(field = "parentRoomGroupVM", property = "ParentRoomGroupVM", type = "RoomGroupViewModel", defaultValue = "null")]
+    [SnippetPropertyINPC(field = "enabled", property = "Enabled", type = "bool", defaultValue = "false")]
+    public partial class RoomGroupViewModel : ImagedEntityViewModel
+    {
+        public RoomGroupViewModel(RoomGroup rg)
+            : base(rg)
+        {
+            Name = rg.Name;
+        }
+
+        public override void Initialize()
+        {
+           
+            base.Initialize();
+        }
+
+       
+
+        private TreeNodeModel treeNode;
+        public TreeNodeModel TreeNode
+        {
+            get
+            {
+                if (treeNode == null)
+                {
+                    treeNode = ToTree();
+                }
+                return treeNode;
+            }
+        }
+
+        private TreeNodeModel ToTree()
+        {
+            TreeNodeModel root = new TreeNodeModel() { id = Id, text = Name, url = Id.ToString() };
+            if(ImageVM != null && ImageVM.Id >0 && (!string.IsNullOrEmpty(ImageVM.FullPath)))
+            {
+                root.icon = ImageVM.FullPath;
+            }
+            if (RoomVMs != null && RoomVMs.Count > 0)
+            {
+                root.nodes = new List<NodeModel>();
+                foreach (var r in RoomVMs)
+                {
+                    NodeModel node = new NodeModel();
+                    node.id = r.Id;
+                    node.name = r.Name;
+                    node.imageurl = r.ImageVM.FullPath;
+                    root.nodes.Add(node);
+                }
+            }
+            if (SubRoomGroupVMs != null && SubRoomGroupVMs.Count > 0)
+            {
+               
+                root.children = new List<TreeNodeModel>();
+                foreach (var srg in SubRoomGroupVMs)
+                {
+                    root.children.Add(srg.ToTree());
+                }
+            }
+
+           
+            return root;
+        }
+    }
+}
+
